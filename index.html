@@ -4,20 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WorkSpace</title>
+  <title>Workspace</title>
 
-  <link rel="stylesheet" href="style/normalize.css">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="index.css">
+
+  <script src="js/choices.min.js" defer></script>
+  <script src="js/script.js" defer></script>
 </head>
 
 <body>
-  <head class="header">
+  <header class="header">
     <div class="container header__container">
       <img class="header__logo" src="img/logo.svg" alt="Логотип Workspace">
 
       <a class="header__link" href="#vacancies">Посмотреть вакансии</a>
     </div>
-  </head>
+  </header>
 
   <main>
     <section class="hero">
@@ -30,6 +32,7 @@
 
     <div class="vacancies" id="vacancies">
       <div class="container vacancies__container">
+        <button class="vacancies__filter-btn">Фильтр</button>
         <section class="vacancies__filter filter">
           <h2 class="filter__title">Фильтр</h2>
 
